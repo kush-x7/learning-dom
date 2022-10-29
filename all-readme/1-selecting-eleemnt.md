@@ -19,14 +19,7 @@ Code example 👇
 
 ## 1. Selecting element by Id
 
-Code example 👇
-
-```
-const heading = document.getElementById("main-heading");
-console.log(heading);
-```
-
-**output** 👉 `<h1 id="main-heading">`
+We will use `document.getElementById("main-heading")` to fetch the heading element and `<h1 id="main-heading">` will be our output.
 
 ## 2. Selecting element by Class
 
@@ -57,4 +50,16 @@ HTMLCollection { 0: li.li-items, 1: li.li-items, 2: li.li-items, 3: li.li-items,
 4: <li class="li-items">
 ```
 
-## 3. Selecting element by Class
+## 3. Selecting element by Tag Name
+
+It is same as selecting the elements by class name but instead of class we will use the `tag` like `document.getElementsByTagName("li")`
+
+## 4. Selecting element by Query Selector
+
+For selecting one element we use `querySelector('div')`.
+
+- we use `.` for class and `#` for id.
+
+## 5. Selecting element by Query Selector All
+
+For selecting all elements we use `querySelectorAll('div')`.

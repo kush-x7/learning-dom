@@ -1,2 +1,2 @@
-const heading = document.getElementsByClassName("li-items");
+const heading = document.gettag("li-items");
 console.log(heading);
