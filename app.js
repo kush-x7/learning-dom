@@ -1,14 +1,22 @@
-let myList = document.querySelector("ul");
+const button = document.querySelector("button");
 
-// console.log(myList.parentNode);
-// console.log(myList.parentElement);
+button.addEventListener("click", () => {
+  alert(1);
+});
 
-let html = document.documentElement;
+button.addEventListener("mouseover", () => {
+  alert(1);
+});
 
-// Parent node will give document and parent element will giv
+// Creatinga modal
 
-// Use children instead of child node
-// FirstEleemntChild lastElementChild
-console.log(myList.childNodes);
-console.log(myList.firstChild);
-console.log(myList.childNodes.childNodes);
+const revealBtn = document.querySelector(".reveal-btn");
+const hiddenContent = document.querySelector(".hidden-content");
+
+revealBtn.addEventListener("click", () => {
+  if (hiddenContent.classList.contains("reveal-btn")) {
+    hiddenContent.classList.remove("reveal-btn");
+  } else {
+    hiddenContent.classList.add("reveal-btn");
+  }
+});
