@@ -28,7 +28,7 @@ We will use `myHeading.classList.add('new-class-name')` to add a new class and t
 
 ## Checking for class (True / False)
 
-`myHeading.contains('container')` contains will check whether the class is present or not and it will give output according to it.
+`myHeading.classList.contains('container')` contains will check whether the class is present or not and it will give output according to it.
 
 ## Remove Elements
 
